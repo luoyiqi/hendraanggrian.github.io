@@ -37,7 +37,7 @@ a {
   color: #394249;
 }
 .portfolio-top{
-  background-color: #394249;
+  background-color: #273238;
 }
 .filter {
   color: #394249;
@@ -46,7 +46,7 @@ a {
   background-color: #7ec7c0;
 }
 #portfolio-list .mix:hover > a::before {
-  background-color: #394249;
+  background-color: #273238;
 }
 .counter{
   color: #394249;
@@ -72,10 +72,10 @@ a {
 }
 
 .readmore-btn:hover{
-  background-color: #394249;
+  background-color: #273238;
 }
 #experience{
-  background-color: #394249;
+  background-color: #273238;
 }
 
 .card-title i {
