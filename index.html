@@ -381,25 +381,33 @@
                         <div class="row">
                           <div class="col s12 m6 l6">
                             <div class="contact-form">
-                              <form action="send.php" method="POST">
-                                <div class="input-field">
+                              <form name="form" method="GET">
+                                <!--div class="input-field">
                                   <input type="text" class="input-box" name="contactName" id="contact-name">
                                   <label class="input-label" for="contact-name">Name</label>
                                 </div>
                                 <div class="input-field">
                                   <input type="email" class="input-box" name="contactEmail" id="email">
                                   <label class="input-label" for="email">Email</label>
-                                </div>
+                                </div-->
                                 <div class="input-field">
                                   <input type="text" class="input-box" name="contactSubject" id="subject">
                                   <label class="input-label" for="subject">Subject</label>
                                 </div>
                                 <div class="input-field textarea-input">
-                                  <textarea class="materialize-textarea" name="contactMessage" id="textarea1"></textarea>
+                                  <textarea class="materialize-textarea" name="contactMessage" id="message"></textarea>
                                   <label class="input-label" for="textarea1">Message</label>
                                 </div>
-                                <button class="left waves-effect btn-flat brand-text submit-btn" type="submit">Send message</button>
+                                <button class="left waves-effect btn-flat brand-text submit-btn" type="button" onclick="myFunction()">Send message</button>
                               </form>
+                              <script type="text/javascript">
+                                  function myFunction(){
+                                      var subject = document.forms["form"]["subject"].value;
+                                      var message = document.forms["form"]["message"].value;
+                                      
+                                      document.location.href = "mailto:hendraanggrian@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(message);
+                                  }
+                              </script>
                             </div>
                           </div>
                           <div class="col s12 m6 l6">
