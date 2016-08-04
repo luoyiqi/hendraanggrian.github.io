@@ -737,9 +737,9 @@ header .logo a {
 		margin-top: 60px;
 	}
 	header .logo a {
-		width: 247px;
+		width: 409.5px;
 		height: 63px;
-		background-size: 247px 63px;
+		background-size: 409.5px 63px;
 	}
 }
 @media only screen and (max-width:768px) {
@@ -748,9 +748,9 @@ header .logo a {
 		margin-top: 48px;
 	}
 	header .logo a {
-		width: 235px;
+		width: 390px;
 		height: 60px;
-		background-size: 235px 60px;
+		background-size: 390px 60px;
 	}
 }
 @media only screen and (max-width:600px) {
@@ -758,9 +758,9 @@ header .logo a {
 		left: 41px;
 	}
 	header .logo a {
-		width: 212px;
+		width: 351px;
 		height: 54px;
-		background-size: 212px 54px;
+		background-size: 351px 54px;
 	}
 }
 @media only screen and (max-width:400px) {
@@ -769,9 +769,9 @@ header .logo a {
 		margin-top: 19px;
 	}
 	header .logo a {
-		width: 165px;
+		width: 273px;
 		height: 42px;
-		background-size: 165px 42px;
+		background-size: 273px 42px;
 	}
 }
 
